@@ -435,7 +435,8 @@ ul {
 }
 .ul-footer {
   display: flex;
-  gap: 16px;
+  justify-content: center;
+  gap: 24px;
 }
 .svg-li-footer {
   width: 40px;
@@ -450,13 +451,14 @@ ul {
   align-items: center;
   justify-content: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--bg-ligt-grey-color);
 }
 .svg-footer-a:hover,
 .svg-footer-a:focus {
   background-color: #31d0aa;
 }
 .svg-footer-icons {
-  fill: #f4f4fd;
+  fill: var(--bg-ligt-grey-color);
 }
 /*Customers*/
 .customers {
@@ -497,6 +499,10 @@ ul {
 
 .svg-customers-icons {
   fill: currentColor;
+}
+.svg-customers-a:hover,
+.svg-customers-a:focus .svg-customers-icons {
+  fill: var(--bg-btn-hover);
 }
 /* Portfolio */
 

@@ -21,6 +21,7 @@
   --bg-btn-hover-filtres: #404bbf;
 
   --border-color-filtres-btn: #e7e9fc;
+  --bg-modal-colar: #fcfcfc;
 }
 
 .visually-hidden {
@@ -436,7 +437,7 @@ ul {
 .ul-footer {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .svg-li-footer {
   width: 40px;
